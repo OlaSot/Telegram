@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.Chats {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ChatWindow {
+  background-color: aqua;
+  flex-grow: 1;
+  position: relative;
+}
+
+.Chats__list {
+  padding: 8px 7px;
+  overflow: auto;
+}

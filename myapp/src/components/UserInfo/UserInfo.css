@@ -1,0 +1,25 @@
+.UserInfo {
+  display: flex;
+  padding: 8px 13px 8px 24px;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(114, 114, 114, 0.168627);
+}
+
+.UserInfo__chatInfo {
+  flex-grow: 1;
+  display: flex;
+}
+
+.UserInfo__icons {
+  display: flex;
+}
+
+.UserInfo__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.UserInfo__chatInfoText {
+  margin-left: 20px;
+}

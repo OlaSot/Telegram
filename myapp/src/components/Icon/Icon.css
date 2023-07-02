@@ -1,0 +1,22 @@
+.Icon {
+  font-size: 18px;
+  color: rgb(112, 117, 121);
+}
+
+.Icon__wrapper {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  border-radius: 50%;
+
+  transition: background linear 0.15s;
+}
+
+.Icon__wrapper:hover {
+  background-color: rgba(112, 117, 121, 0.08);
+}

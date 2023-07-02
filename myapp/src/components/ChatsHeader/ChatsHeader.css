@@ -1,0 +1,8 @@
+.ChatsHeader {
+  display: flex;
+  padding: 10px;
+}
+
+.ChatsHeader__temp {
+  width: 20px;
+}

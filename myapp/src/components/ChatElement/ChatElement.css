@@ -1,0 +1,42 @@
+.ChatElement {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  gap: 20px;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  position: relative;
+  color: rgb(112, 117, 121);
+}
+
+.ChatElement--blue {
+  background-color: #1f82ed;
+  color: white;
+}
+
+.ChatElement:hover:not(.ChatElement--blue) {
+  background-color: rgb(244, 244, 245);
+}
+
+.ChatElement__avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+.ChatElement--blue .ChatElement__title {
+  color: white;
+}
+
+.ChatElement__title {
+  font-weight: bold;
+  color: black;
+}
+
+
+
+.ChatElement__time {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

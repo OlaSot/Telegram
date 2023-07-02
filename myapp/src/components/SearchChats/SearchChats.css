@@ -1,0 +1,21 @@
+.SearchChats {
+  height: 44px;
+  width: 520px;
+  border-radius: 1.375rem;
+  background-color: rgb(244, 244, 245);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.SearchChats__icon {
+  color: rgba(112, 117, 121, 0.5);
+  font-size: 22px;
+}
+
+.SearchChats__input {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  margin-left: 15px;
+}
